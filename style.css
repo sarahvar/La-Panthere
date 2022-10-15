@@ -478,6 +478,10 @@ button {
 .icon-md {
     font-size: 30px!important;
 }
+.icon-md:hover {
+    color: #364577!important;
+    border-color: #364577!important;
+}
 
 .icon-lg {
     font-size: 60px!important;
@@ -804,10 +808,6 @@ h4 {
     color: #c27956!important;
 }
 
-.icon-md:hover {
-    color: #364577!important;
-    border-color: #364577!important;
-}
 
 .bg-dots-bg {
     background-image: url("img/dots-bg.png");
