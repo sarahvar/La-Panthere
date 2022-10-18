@@ -27,7 +27,7 @@ html {
     cursor : pointer;
     }
     footer a {
-    color : #FFFFFF;
+    color : rgb(0,0,0,0.9);
     }
     li {
     font-size : 20px;
