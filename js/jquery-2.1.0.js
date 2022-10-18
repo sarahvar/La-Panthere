@@ -1,6 +1,8 @@
-<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script> 
-! function(a, b) {
+/*! jQuery v2.1.0 | (c) 2005, 2014 jQuery Foundation, Inc. | jquery.org/license */ ! function(a, b) {
     "object" == typeof module && "object" == typeof module.exports ? module.exports = a.document ? b(a, !0) : function(a) {
+        if (!a.document) throw new Error("jQuery requires a window with a document");
+        return b(a)
+    } : b(a)
 }("undefined" != typeof window ? window : this, function(a, b) {
     var c = [],
         d = c.slice,
