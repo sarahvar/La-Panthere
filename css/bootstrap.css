@@ -25,6 +25,13 @@ footer,
 header,
 hgroup,
 main,
+
+
+
+
+
+
+*
 menu,
 nav,
 section,
@@ -2317,6 +2324,9 @@ pre code {
     .col-sm-6 {
         width: 50%
     }
+    .col-sm-6-2{
+        width:100%
+    }
     .col-sm-5 {
         width: 41.66666667%
     }
@@ -4216,7 +4226,7 @@ fieldset[disabled] .btn-link:hover {
 
 .btn-block {
     display: block;
-    width: 100%
+    width: 50%
 }
 
 .btn-block+.btn-block {
@@ -4274,7 +4284,6 @@ tbody.collapse.in {
     margin-left: 2px;
     vertical-align: middle;
     border-top: 4px dashed;
-    border-top: 4px solid\9;
     border-right: 4px solid transparent;
     border-left: 4px solid transparent
 }
@@ -4361,7 +4370,6 @@ tbody.collapse.in {
     cursor: not-allowed;
     background-color: transparent;
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false)
 }
 
 .open>.dropdown-menu {
