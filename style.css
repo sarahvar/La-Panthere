@@ -179,7 +179,7 @@ html {
     }
   
     footer {
-    height : 100px;
+    height : 100%;
     background-color : #F3976C;
    
     }
@@ -281,7 +281,12 @@ html {
     box-shadow : 0 1px 3px rgb(0, 0, 1, 0.25), 0 1px 0 0 rgb(255, 255, 255, 0.15) inset;
     }
     .icon-md {
+        font-size : 30px !important ;
+    }
+    @media (max-width:768px){
+    .icon-md {
     font-size : 15px !important ;
+    }
     }
     .icon-lg {
     font-size : 60px !important ;
@@ -322,14 +327,14 @@ html {
     font-size : 32px;
     width : 50px;
     height : 50px;
-    margin-left : -25px;
+    margin-left : 115px;
     border-radius : 50%;
     background : rgb(0, 0, 0, 0.6);
     color : #FFF;
     font-weight : 100;
     z-index : 1;
     position : absolute;
-    top : 50%;
+    top : 30%;
     transform : translateY(-50%);
     }
     a[data-lightbox]:hover img {
@@ -426,6 +431,7 @@ html {
     }
     p {
     font-size : 20px;
+    color:black;
     }
     .tight-width-whitespace {
     max-width : 600px;
@@ -535,6 +541,7 @@ html {
     }
     .bg-dots-bg {
     background-image : url("img/dots-bg.png");
+    color:black;
     }
     .bg-lines-h2-bg {
     background-image : url("img/lines-h2-bg.jpg");
@@ -724,7 +731,6 @@ html {
     text-align : center;
     }
     #bloc-8 > div > div > div > div {
-    display : flex;
     justify-content : space-between;
     width : 100%;
     }
@@ -742,7 +748,6 @@ html {
     margin: auto;
     }
     footer div {
-    display : flex;
     flex-direction : row;
     justify-content : center;
     }
