@@ -12,7 +12,6 @@ html {
     }
     #bloc-0 > div > nav > div.collapse.navbar-collapse.navbar-1.special-dropdown-nav > ul {
     list-style : none;
-    padding-right : 10%;
     display : flex;
     justify-content : space-around;
     }
